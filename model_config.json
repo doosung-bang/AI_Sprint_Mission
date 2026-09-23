@@ -1,0 +1,8 @@
+{
+  "model_path": "final_Unet_model.pth",
+  "BASE_CH": 32,
+  "CROP": 128,
+  "val_rmse": 0.014386651610752163,
+  "val_psnr": 37.03679364702878,
+  "saved_at": "2026-09-23T13:03:01.398961"
+}
