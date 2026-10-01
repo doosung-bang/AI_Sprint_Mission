@@ -1,0 +1,52 @@
+{
+  "resnet50_improved (thr=0.5)": {
+    "members": [
+      "resnet50_improved"
+    ],
+    "tta": false,
+    "thr": 0.5
+  },
+  "resnet50_improved +Youden": {
+    "members": [
+      "resnet50_improved"
+    ],
+    "tta": false,
+    "thr": 0.2874904274940491
+  },
+  "resnet50_improved +TTA+Youden": {
+    "members": [
+      "resnet50_improved"
+    ],
+    "tta": true,
+    "thr": 0.31882503628730774
+  },
+  "densenet121_improved (thr=0.5)": {
+    "members": [
+      "densenet121_improved"
+    ],
+    "tta": false,
+    "thr": 0.5
+  },
+  "densenet121_improved +Youden": {
+    "members": [
+      "densenet121_improved"
+    ],
+    "tta": false,
+    "thr": 0.24078211188316345
+  },
+  "densenet121_improved +TTA+Youden": {
+    "members": [
+      "densenet121_improved"
+    ],
+    "tta": true,
+    "thr": 0.43140044808387756
+  },
+  "Ensemble(ResNet50+DenseNet121) +TTA+Youden": {
+    "members": [
+      "resnet50_improved",
+      "densenet121_improved"
+    ],
+    "tta": true,
+    "thr": 0.3374689221382141
+  }
+}

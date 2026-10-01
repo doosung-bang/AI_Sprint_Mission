@@ -1,0 +1,62 @@
+{
+  "baseline_cnn": {
+    "arch": "simple_cnn",
+    "mode": "full",
+    "prep": "raw",
+    "aug": "light"
+  },
+  "aug_none": {
+    "arch": "resnet50",
+    "mode": "partial",
+    "prep": "raw",
+    "aug": "none"
+  },
+  "aug_light": {
+    "arch": "resnet50",
+    "mode": "partial",
+    "prep": "raw",
+    "aug": "light"
+  },
+  "aug_strong": {
+    "arch": "resnet50",
+    "mode": "partial",
+    "prep": "raw",
+    "aug": "strong"
+  },
+  "clahe_light": {
+    "arch": "resnet50",
+    "mode": "partial",
+    "prep": "clahe",
+    "aug": "light"
+  },
+  "resnet50_frozen": {
+    "arch": "resnet50",
+    "mode": "frozen",
+    "prep": "raw",
+    "aug": "none"
+  },
+  "resnet50_partial": {
+    "arch": "resnet50",
+    "mode": "partial",
+    "prep": "raw",
+    "aug": "none"
+  },
+  "resnet50_full": {
+    "arch": "resnet50",
+    "mode": "full",
+    "prep": "raw",
+    "aug": "none"
+  },
+  "resnet50_improved": {
+    "arch": "resnet50",
+    "mode": "full",
+    "prep": "raw",
+    "aug": "strong"
+  },
+  "densenet121_improved": {
+    "arch": "densenet121",
+    "mode": "full",
+    "prep": "raw",
+    "aug": "strong"
+  }
+}
