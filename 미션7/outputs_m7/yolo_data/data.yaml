@@ -1,0 +1,7 @@
+path: C:/git/AI_Sprint_Mission/미션7/outputs_m7/yolo_data
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: cat
+  1: dog

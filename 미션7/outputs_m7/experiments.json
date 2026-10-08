@@ -1,0 +1,74 @@
+{
+  "ssd300_base": {
+    "arch": "ssd300",
+    "loss": "ce",
+    "aug": "basic",
+    "mosaic_p": 0.0,
+    "sampler": null,
+    "weights": "outputs_m7\\ssd300_base.pt"
+  },
+  "ssd300_aug": {
+    "arch": "ssd300",
+    "loss": "ce",
+    "aug": "ssd",
+    "mosaic_p": 0.0,
+    "sampler": null,
+    "weights": "outputs_m7\\ssd300_aug.pt"
+  },
+  "ssd300_mosaic": {
+    "arch": "ssd300",
+    "loss": "ce",
+    "aug": "ssd",
+    "mosaic_p": 0.5,
+    "sampler": null,
+    "weights": "outputs_m7\\ssd300_mosaic.pt"
+  },
+  "ssd512_small": {
+    "arch": "ssd512",
+    "loss": "ce",
+    "aug": "ssd",
+    "mosaic_p": 0.0,
+    "sampler": null,
+    "weights": "outputs_m7\\ssd512_small.pt"
+  },
+  "ssd300_balanced": {
+    "arch": "ssd300",
+    "loss": "ce",
+    "aug": "ssd",
+    "mosaic_p": 0.0,
+    "sampler": "balanced",
+    "weights": "outputs_m7\\ssd300_balanced.pt"
+  },
+  "ssd300_focal_giou": {
+    "arch": "ssd300",
+    "loss": "focal_giou",
+    "aug": "ssd",
+    "mosaic_p": 0.0,
+    "sampler": null,
+    "weights": "outputs_m7\\ssd300_focal_giou.pt"
+  },
+  "ssdlite320": {
+    "arch": "ssdlite",
+    "loss": "ce",
+    "aug": "ssd",
+    "mosaic_p": 0.0,
+    "sampler": null,
+    "weights": "outputs_m7\\ssdlite320.pt"
+  },
+  "yolo11n": {
+    "arch": "yolo",
+    "loss": "yolo(default)",
+    "aug": "yolo(default: mosaic 등)",
+    "mosaic_p": 1.0,
+    "sampler": null,
+    "weights": "C:\\git\\AI_Sprint_Mission\\미션7\\outputs_m7\\yolo\\yolo11n\\weights\\best.pt"
+  },
+  "yolo26n": {
+    "arch": "yolo",
+    "loss": "yolo(default)",
+    "aug": "yolo(default: mosaic 등)",
+    "mosaic_p": 1.0,
+    "sampler": null,
+    "weights": "C:\\git\\AI_Sprint_Mission\\미션7\\outputs_m7\\yolo\\yolo26n\\weights\\best.pt"
+  }
+}
